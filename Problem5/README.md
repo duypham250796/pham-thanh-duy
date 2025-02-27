@@ -31,7 +31,7 @@ Installation
 Configuration
 
 1. Create a .env file in the root directory and add the following:
-        MONGO_URI=mongodb+srv://<username>:<password>@cluster0.bc0co7e.mongodb.net
+        MONGO_URI=mongodb+srv://sa:Abc123@cluster0.bc0co7e.mongodb.net/
         PORT=5000
 
 2. Ensure MongoDB is running locally or use a cloud-based MongoDB instance
