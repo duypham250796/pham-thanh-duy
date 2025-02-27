@@ -22,21 +22,25 @@ npm or yarn
 
 Installation
 1. Clone this repository:
+
         git clone <repository-url>
         cd <repository-folder>
 
-2. Install dependencies:
+3. Install dependencies:
+   
         npm install
 
 Configuration
 
 1. Create a .env file in the root directory and add the following:
+   
         MONGO_URI=mongodb+srv://sa:Abc123@cluster0.bc0co7e.mongodb.net/
         PORT=5000
 
-2. Ensure MongoDB is running locally or use a cloud-based MongoDB instance
+3. Ensure MongoDB is running locally or use a cloud-based MongoDB instance
 
 Running the Application
+
         npm start
 
 API Endpoints
@@ -46,6 +50,7 @@ Method: POST
 Endpoint: http://localhost:5000/users
 
 Body:
+
     {
     "email": "",
     "name": "",
@@ -54,16 +59,24 @@ Body:
 
 2. Get all users
 Method: GET
-Endpoint: http://localhost:5000/users
+Endpoint:
 
-3. Get a single user by ID
+        http://localhost:5000/users
+
+4. Get a single user by ID
 Method: GET
-Endpoint: http://localhost:5000/users/:id
+Endpoint:
 
-4. Update a user's details
+        http://localhost:5000/users/:id
+
+6. Update a user's details
 Method: PUT
-Endpoint: http://localhost:5000/users/:id
+Endpoint:
 
-5. Delete a user
+        http://localhost:5000/users/:id
+
+8. Delete a user
 Method: DELETE
-Endpoint: http://localhost:5000/users/:id
+Endpoint:
+
+        http://localhost:5000/users/:id
