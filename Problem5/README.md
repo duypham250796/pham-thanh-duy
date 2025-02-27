@@ -47,7 +47,9 @@ API Endpoints
 
 1. Create a new user
 Method: POST
-Endpoint: http://localhost:5000/users
+Endpoint:
+
+        http://localhost:5000/users
 
 Body:
 
